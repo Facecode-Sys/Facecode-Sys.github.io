@@ -1,0 +1,22 @@
+@import 'colors'; // Color presets, not color assignations [color_xxxYyyy]
+
+// Color assignations [clrXxx]
+$clrText: #111;
+$clrLink: $color_seaGreen;
+$clrBackground: $color_teaGreen + #333;
+
+body {
+  background-color: $clrBackground;
+  color: $clrText;
+}
+
+a {
+  color: $clrLink;
+}
+
+header {
+  background-color: $color_pineGreen;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}

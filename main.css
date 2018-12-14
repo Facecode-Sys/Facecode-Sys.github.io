@@ -1,0 +1,15 @@
+body {
+  background-color: #fffff3;
+  color: #111;
+}
+
+a {
+  color: #2E8B57;
+}
+
+header {
+  background-color: #01796F;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
