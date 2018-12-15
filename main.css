@@ -1,15 +1,87 @@
 body {
-  background-color: #fffff3;
+  background-color: white;
   color: #111;
+  font-size: 1.1em;
+  position: relative;
 }
 
-a {
+a:link, a:visited {
   color: #2E8B57;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0c6935;
+}
+
+a:active {
+  font-weight: bolder;
+  color: #0c6935;
+}
+
+header p.subtitle {
+  font-weight: lighter;
+  font-size: 2em;
+  padding-bottom: none;
+}
+
+.twitter {
+  color: #38A1F3;
+}
+
+.facebook {
+  color: #4267b2;
+}
+
+.instagram {
+  color: #231F20;
+}
+
+.youtube {
+  color: #ED3833;
 }
 
 header {
   background-color: #01796F;
+  color: #EEE;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+footer {
+  background-color: #00574d;
   color: white;
   text-align: center;
-  font-weight: bold;
+  padding-top: 0px;
+  position: absolute;
+  height: 7em;
+  bottom: 0;
+  font-size: 0.8em;
+}
+
+footer a:link, footer a:visited, footer a:hover, footer a:active {
+  color: #DDD;
+  text-decoration: none;
+}
+
+.navbar {
+  margin-top: 0;
+  margin-bottom: 1em;
+  background-color: #00A572;
+  color: white;
+}
+
+.navbar a:link, .navbar a:visited {
+  color: #7bffff;
+}
+
+#social {
+  background-color: white;
+  color: #00685e;
+  padding: 0.1em;
+  font-size: 1em;
+}
+
+#body {
+  padding-bottom: 7em;
 }
